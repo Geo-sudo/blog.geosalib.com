@@ -7,8 +7,6 @@ import { remarkReadingTime } from './src/utils/readTime.ts'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://geosalib.com', // Write here your website url
-	base: '/blog/',
-    trailingSlash: "never",
 	output: 'static',
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
