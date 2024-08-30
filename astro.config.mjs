@@ -3,12 +3,12 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
 import { remarkReadingTime } from './src/utils/readTime.ts'
+import image from '@astrojs/image';
+
 
 // https://astro.build/config
 export default defineConfig({
-	image: {
-		service: passthroughImageService(),
-	  },
+	
 	site: 'https://geosalib.com', // Write here your website url
 	output: 'static',
 	markdown: {
@@ -32,6 +32,9 @@ export default defineConfig({
 			drafts: true
 		}),
 		sitemap(),
-		tailwind()
+		tailwind(),
+		image({
+			serviceEntryPoint: '@astrojs/image/sharp',
+		  }),
 	]
 })
