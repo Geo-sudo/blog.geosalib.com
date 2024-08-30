@@ -6,6 +6,9 @@ import { remarkReadingTime } from './src/utils/readTime.ts'
 
 // https://astro.build/config
 export default defineConfig({
+	image: {
+		service: passthroughImageService(),
+	  },
 	site: 'https://geosalib.com', // Write here your website url
 	output: 'static',
 	markdown: {
