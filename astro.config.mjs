@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, passthroughImageService } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
@@ -6,6 +6,9 @@ import { remarkReadingTime } from './src/utils/readTime.ts';
 
 // https://astro.build/config
 export default defineConfig({
+  image: {
+    service: passthroughImageService()
+  },
   site: 'https://geosalib.com',
   // Write here your website url
   output: 'static',
