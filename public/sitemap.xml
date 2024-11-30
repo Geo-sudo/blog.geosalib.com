@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.geosalib.com/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/astronomy/</loc>
+    <loc>http://localhost:1313/tags/astronomy/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/categories/astronomy/</loc>
+    <loc>http://localhost:1313/categories/astronomy/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/exoplanets/</loc>
+    <loc>http://localhost:1313/tags/exoplanets/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/posts/2022/exoplanets-hunting/</loc>
+    <loc>http://localhost:1313/posts/2022/exoplanets-hunting/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/exploration/</loc>
+    <loc>http://localhost:1313/tags/exploration/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/feature/</loc>
+    <loc>http://localhost:1313/tags/feature/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/space/</loc>
+    <loc>http://localhost:1313/tags/space/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url><url>
-    <loc>https://blog.geosalib.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-07-27T13:03:07+07:00</lastmod>
   </url>
 </urlset>
