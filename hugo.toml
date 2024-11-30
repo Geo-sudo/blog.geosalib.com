@@ -1,0 +1,41 @@
+baseURL = 'https://blog.geosalib.com/'
+languageCode = 'en-us'
+title = 'Geo Salib | Me & My Thoughts!'
+theme = 'pehtheme-hugo'
+
+paginate = '6' # <- Set the desired number of posts per page 
+summaryLength = '20' # <- 20 words are approximately 160 characters
+googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+
+[params]
+	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
+	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
+	mainSections = 'posts'
+
+[author]
+	name = 'George Salib'
+	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
+	avatar = '/images/nasa-astronaut-unsplash.jpg'
+	github = 'https://github.com/Geo-sudo'
+
+[menu] # Menu management
+	[[menu.main]]
+		name = 'Home'
+		pageRef = '/'
+		weight = 10
+	[[menu.main]]
+		name = 'About'
+		pageRef = '/about'
+		weight = 15
+	[[menu.main]]
+		name = 'Tags'
+		pageRef = '/tags'
+		weight = 20
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+  [module.mounts] # Directing the static folder to assets.
+  	source = 'assets'
+  	target = 'static'
