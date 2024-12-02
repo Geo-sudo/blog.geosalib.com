@@ -4,9 +4,9 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Feature | Geo Salib | Me &amp; My Thoughts!</title>
+<title>Newtonian Binary Star System Simulation Framework | Geo Salib | Me &amp; My Thoughts!</title>
 
-<meta name="description" content="">
+<meta name="description" content="A framework for a realistic astrophysical simulation of a Binary Star System written in Python.">
     <link rel="stylesheet" href="/css/main.css">
 
 <link rel="icon" type="image/svg+xml" href="http://localhost:1313/favicon.svg"> 
@@ -74,49 +74,90 @@
 			<a href="http://localhost:1313/">Geo Salib | Me &amp; My Thoughts!</a>
 		</li>
 		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
-			<a href="http://localhost:1313/tags/">Tags</a>
+			<a href="http://localhost:1313/posts/">Posts</a>
 		</li>
 	</ul>
-</div><div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
+</div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
 
-  <section class="md:col-span-2">
+  <article class="md:col-span-2 prose lg:prose-lg">
 
-    <h2 class="text-3xl font-bold mb-10">Feature</h2>
+    <header class="not-prose">
+      
+      <h1 id="title" class="text-4xl font-bold leading-normal">Newtonian Binary Star System Simulation Framework</h1>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">
+      <div id="lead" class="my-6">
 
-      <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
-	<a class="insert-link" href="http://localhost:1313/posts/2024/binary-star-system-simulation/"></a>
+        <p class="font-bold">A framework for a realistic astrophysical simulation of a Binary Star System written in Python. </p>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
-						<img 
-							class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" 
-							src="http://localhost:1313/images/Binary%20Star_hu4496038283062694002.jpeg" 
-							alt="Newtonian Binary Star System Simulation Framework" 
-							width="750" 
-							height="563">
-	</figure>
+      </div>
+      
+      <div id="writer" class="flex items-center space-x-4"><ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+          
+          <li class="font-semibold my-2"></li>
+          
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2024-07-16T04:00:00&#43;07:00">July 16, 2024</time>
+          </li>
 
-	<div class="p-6">
-		<time datetime="2024-07-16T04:00:00&#43;07:00">
-			Jul 16, 2024
-		</time>
-		<h3 class="my-4 text-2xl font-bold">Newtonian Binary Star System Simulation Framework</h3>
-		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">
-			A framework for a realistic astrophysical simulation of a Binary Star System written in Python.
-		</p>
-	</div>
-</article>
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
+            2 min read
+          </li>
 
-    
-    </div>
+        </ul>
 
-    
+      </div>
+      
+    </header>
 
-    <div class="flex items-center mt-10"></div>
+    <figure id="featureimage" class="rounded-xl aspect-video">
+            <img class="rounded-lg" src="http://localhost:1313/images/Binary%20Star_hu4496038283062694002.jpeg" alt="" width="750" height="563">
+        <figcaption class="text-center italic text-xs">Artist’s impression of the exotic binary star system AR Scorpii. Credit: M. Garlick/University of Warwick, ESA/Hubble.</figcaption>
+
+    </figure>
+
+    <div id="content" class="mb-14">
+      <h2 id="binary-stars">Binary Stars?</h2>
+<p>Simply put, they are two stars revolving around each other. As a matter of fact, it is <a href="https://www.space.com/22509-binary-stars.html">estimated that 85%</a> of stars in the universe are Binary Star Systems or more!  We get many fascinating effects from this type system.</p>
+<p>We see the system as one source of light because of the massive distance between us and the stars; when you look at your LED light bulb you don&rsquo;t see each LED, you see their light as one source.</p>
+<blockquote>
+<p>Did you know that Sirius, the brightes &ldquo;star&rdquo; in the night sky, isn&rsquo;t a star! It&rsquo;s a Binary Star System: two stars that are graviationally bound together (<a href="https://en.wikipedia.org/wiki/Binary_star">Read More</a>).</p>
+</blockquote>
+<p><img src="https://blog.geosalib.com/images/Sirius_A_and_B_artwork.jpg" alt="An Artist&rsquo;s Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005." title="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005."></p>
+<h3 id="detecting-the-wandering-couples-">Detecting The Wandering Couples 💕</h3>
+<p>Well, if we only see them as one light source how do we know if this is just a single star or a Binary System or a &ldquo;party&rdquo; of them?</p>
+<p>We get out our nice and precise telescope (no rhyme intended)!</p>
+<p>The way to detect these is by using precise equipment that can detect the faintest of brightness changes over time (see the image below) caused by eclipses. If the luminosity of the star changes periodically, it&rsquo;s a star system, huzzah! Further careful analysis of the luminosity over time graph will tell us if it&rsquo;s a Binary Star System or if it&rsquo;s a bigger party of &ldquo;fireballs.&rdquo;</p>
+<p>![Light curve of binary star Kepler-16. NASA, 2013.](<a href="https://blog.geosalib.com/images/luminosity">https://blog.geosalib.com/images/luminosity</a> graph.jpeg &ldquo;Light curve of binary star Kepler-16. NASA, 2013.&rdquo;)</p>
+<h3 id="the-simulation-framework">The Simulation Framework</h3>
+<p>I made a framework for a realistic astrophysical simulation of a Binary Star System, written in Python using the matplotlib library. It has the orbit data of the <a href="https://en.wikipedia.org/wiki/Sirius">Sirius Binary System</a>, a random stable system, and you can enter your own data and try to find a stable orbit.</p>
+<blockquote>
+<p>You can find the code for the simulation <a href="https://github.com/Geo-sudo/Computational-Astrophysics/tree/main/Binary%20Star">here</a>.</p>
+</blockquote>
+
+
+    <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+
+      <li class="font-semibold my-4">Tags:</li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/gravity/">Gravity</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/matplotlib/">Matplotlib</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/python/">Python</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/astrophysics/">Astrophysics</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/astronomy/">Astronomy</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/tags/feature/">Feature</a></li>
+    </ul>
+</div>
+
+    <footer id="content-footer" class="not-prose">
+
+      <div id="related-post" class="">
+
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2>
+      </div>
+
+    </footer>
+
+  </article>
+
   
-  </section>
-
   <aside class="md:col-span-1"><div class="lg:sticky lg:top-8"><div class="rounded-2xl p-4 bg-zinc-100 mb-10">
 
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5616438898674124"
@@ -142,8 +183,8 @@
 </div>
 </aside>
 
-  </div>
-
+</div>
+  
 </main>
   <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 

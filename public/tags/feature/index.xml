@@ -6,14 +6,14 @@
     <description>Recent content in Feature on Geo Salib | Me &amp; My Thoughts!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jul 2023 13:03:07 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2024 04:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/feature/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exoplanets: Hunting for Earth&#39;s Cosmic Cousins</title>
-      <link>http://localhost:1313/posts/2022/exoplanets-hunting/</link>
-      <pubDate>Thu, 27 Jul 2023 13:03:07 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2022/exoplanets-hunting/</guid>
-      <description>&lt;p&gt;In the vast tapestry of the cosmos, one of the most intriguing quests of modern astronomy is the search for exoplanets, distant celestial bodies that might bear a resemblance to our own Earth. This endeavor is driven by the tantalizing question: Could there be other habitable worlds out there? In this article, we embark on a journey to explore the captivating hunt for Earth&amp;rsquo;s cosmic cousins.&lt;/p&gt;</description>
+      <title>Newtonian Binary Star System Simulation Framework</title>
+      <link>http://localhost:1313/posts/2024/binary-star-system-simulation/</link>
+      <pubDate>Tue, 16 Jul 2024 04:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2024/binary-star-system-simulation/</guid>
+      <description>&lt;p&gt;This is a framework for a realistic astrophysical simulation of a Binary Star System, written in Python using the matplotlib library. It has the orbit data of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Sirius&#34;&gt;Sirius Binary System&lt;/a&gt;, a random stable system, and you can enter your own data and try to find a stable orbit.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
