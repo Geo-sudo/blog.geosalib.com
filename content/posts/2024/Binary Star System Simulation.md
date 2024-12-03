@@ -26,7 +26,11 @@ We see the system as one source of light because of the massive distance between
 
 > Did you know that Sirius, the brightes "star" in the night sky, isn't a star! It's a Binary Star System: two stars that are graviationally bound together ([Read More](https://en.wikipedia.org/wiki/Binary_star)).
 
-![An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005.](https://blog.geosalib.com/images/Sirius_A_and_B_artwork.jpg "An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005.")
+{{< image-caption 
+   src="https://blog.geosalib.com/images/Sirius_A_and_B_artwork.jpg" 
+   alt="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005." 
+   caption="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005." >}}
+
 
 ### Detecting The Wandering Couples 💕
 
@@ -36,7 +40,10 @@ We get out our nice and precise telescope (no rhyme intended)!
 
 The way to detect these is by using precise equipment that can detect the faintest of brightness changes over time (see the image below) caused by eclipses. If the luminosity of the star changes periodically, it's a star system, huzzah! Further careful analysis of the luminosity over time graph will tell us if it's a Binary Star System or if it's a bigger party of "fireballs."
 
-![Light curve of binary star Kepler-16. NASA, 2013.](https://blog.geosalib.com/images/luminosity graph.jpeg "Light curve of binary star Kepler-16. NASA, 2013.")
+{{< image-caption 
+   src="https://blog.geosalib.com/images/luminosity_graph.jpeg" 
+   alt="Light curve of binary star Kepler-16. NASA, 2013." 
+   caption="Light curve of binary star Kepler-16. NASA, 2013." >}}
 
 
 ### The Simulation Framework

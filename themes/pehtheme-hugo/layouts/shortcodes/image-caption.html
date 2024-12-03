@@ -1,0 +1,17 @@
+<figure id="featureimage" class="rounded-xl aspect-video">
+    {{- if .Get "src" }}
+      {{- if ( strings.HasPrefix (.Get "src") "http" ) }}
+        <img class="rounded-lg" src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+      {{- else }}
+        {{- with $image := resources.Get (.Get "src") }}
+          {{- $image := $image.Resize "750x" }}
+          <img class="rounded-lg" src="{{ $image.Permalink }}" alt="{{ .Get "alt" }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  
+    {{- if .Get "caption" }}
+      <figcaption class="text-center italic text-xs">{{ .Get "caption" | markdownify }}</figcaption>
+    {{- end }}
+  </figure>
+  
