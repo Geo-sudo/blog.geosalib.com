@@ -50,4 +50,4 @@ The way to detect these is by using precise equipment that can detect the fainte
 
 I made a framework for a realistic astrophysical simulation of a Binary Star System, written in Python using the matplotlib library. It has the orbit data of the [Sirius Binary System](https://en.wikipedia.org/wiki/Sirius), a random stable system, and you can enter your own data and try to find a stable orbit.
 
-> You can find the code for the simulation [here](https://github.com/Geo-sudo/Computational-Astrophysics/tree/main/Binary%20Star).
+You can find the code for the simulation [here](https://github.com/Geo-sudo/Computational-Astrophysics/tree/main/Binary%20Star).
