@@ -6,7 +6,7 @@ summaryLength = '20'
 
 [params]
   description = "This is a collection of my thoughts, projects, and anything else...It's Me!"
-  favicon = "/static/favicon.ico"
+  favicon = "https://blog.geosalib.com/favicon.ico"
   footerText = "Love, for Love is God, and God is Good."  # Optional
   
   # Hero section title (optional - defaults to site.Title)
