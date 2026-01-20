@@ -2,35 +2,34 @@
 title: "Newtonian Binary Star System Simulation Framework"
 date: 2024-07-16T04:00:00+07:00
 slug: /binary-star-system-simulation/
-description: A framework for a realistic astrophysical simulation of a Binary Star System
+description:
+  A framework for a realistic astrophysical simulation of an N-Body Star System
   written in Python.
 image: images/Binary Star.jpeg
 caption: "Artist’s impression of the exotic binary star system AR Scorpii. Credit: M. Garlick/University of Warwick, ESA/Hubble."
 categories:
-  - astro
+  - Astrophysics
 tags:
   - Gravity
   - matplotlib
   - Python
   - Astrophysics
   - astronomy
-  - feature
 draft: false
 ---
 
 ## Binary Stars?
 
-Simply put, they are two stars revolving around each other. As a matter of fact, it is [estimated that 85%](https://www.space.com/22509-binary-stars.html) of stars in the universe are Binary Star Systems or more!  We get many fascinating effects from this type system.
+Simply put, they are two stars revolving around each other. As a matter of fact, it is [estimated that 85%](https://www.space.com/22509-binary-stars.html) of stars in the universe are Binary Star Systems or more! We get many fascinating effects from this type system.
 
 We see the system as one source of light because of the massive distance between us and the stars; when you look at your LED light bulb you don't see each LED, you see their light as one source.
 
 > Did you know that Sirius, the brightes "star" in the night sky, isn't a star! It's a Binary Star System: two stars that are graviationally bound together ([Read More](https://en.wikipedia.org/wiki/Binary_star)).
 
-{{< image-caption 
-   src="https://blog.geosalib.com/images/Sirius_A_and_B_artwork.jpg" 
-   alt="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005." 
+{{< image-caption
+   src="https://blog.geosalib.com/images/Sirius_A_and_B_artwork.jpg"
+   alt="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005."
    caption="An Artist's Impression of Sirius A and Sirius B. NASA, ESA and G. Bacon (STScI), 2005." >}}
-
 
 ### Detecting The Wandering Couples 💕
 
@@ -40,11 +39,10 @@ We get out our nice and precise telescope (no rhyme intended)!
 
 The way to detect these is by using precise equipment that can detect the faintest of brightness changes over time (see the image below) caused by eclipses. If the luminosity of the star changes periodically, it's a star system, huzzah! Further careful analysis of the luminosity over time graph will tell us if it's a Binary Star System or if it's a bigger party of "fireballs."
 
-{{< image-caption 
-   src="https://blog.geosalib.com/images/luminosity_graph.jpeg" 
-   alt="Light curve of binary star Kepler-16. NASA, 2013." 
+{{< image-caption
+   src="https://blog.geosalib.com/images/luminosity_graph.jpeg"
+   alt="Light curve of binary star Kepler-16. NASA, 2013."
    caption="Light curve of binary star Kepler-16. NASA, 2013." >}}
-
 
 ### The Simulation Framework
 

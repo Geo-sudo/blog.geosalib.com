@@ -1,0 +1,6 @@
+public/
+*output*
+*cache*
+**/build/
+.vscode
+resources/

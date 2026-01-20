@@ -1,41 +1,81 @@
 baseURL = 'https://blog.geosalib.com/'
 languageCode = 'en-us'
 title = 'Geo Salib | Me & My Thoughts!'
-theme = 'pehtheme-hugo'
-
-paginate = '6' # <- Set the desired number of posts per page 
-summaryLength = '20' # <- 20 words are approximately 160 characters
-googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+theme = 'mana'
+summaryLength = '20'
 
 [params]
-	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
-	mainSections = 'posts'
+  description = "This is a collection of my thoughts, projects, and anything else...It's Me!"
+  favicon = "/static/favicon.ico"
+  footerText = "Love, for Love is God, and God is Good."  # Optional
+  
+  # Hero section title (optional - defaults to site.Title)
+  heroTitleLine1 = "Geo Salib"  # First line of hero title
+  heroTitleLine2 = "suffering and enjoying the human condition"    # Second line of hero title (optional)
+  
+  [params.avatar]
+  url = "https://blog.geosalib.com/avatar.png"
 
-[author]
-	name = 'George Salib'
-	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
-	avatar = '/images/nasa-astronaut-unsplash.jpg'
-	github = 'https://github.com/Geo-sudo'
+  [params.social]
+  github = "https://github.com/Geo-sudo"
+  linkedin = "https://linkedin.com/in/geo-sudo/"
+  email = "george.nady.contact@gmail.com"
 
-[menu] # Menu management
-	[[menu.main]]
+  [[menu.main]]
 		name = 'Home'
 		pageRef = '/'
 		weight = 10
 	[[menu.main]]
+		name = 'Theology'
+		pageRef = '/tags/Theology'
+		weight = 15
+	[[menu.main]]
+		name = 'Astrophysics'
+		pageRef = '/tags/astrophysics'
+		weight = 20
+	[[menu.main]]
+		name = 'Poetry'
+		pageRef = '/tags/poetry'
+		weight = 25
+	[[menu.main]]
 		name = 'About'
 		pageRef = '/about'
-		weight = 15
+		weight = 30
 	[[menu.main]]
 		name = 'Tags'
 		pageRef = '/tags'
-		weight = 20
+		weight = 35
+
+[pagination]
+  pageSize = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      # Enable block-level attributes for blockquotes
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+[params.copyright]
+  startYear = 2023
+  owner = "George Salib"
+
+  [params.buyMeACoffee]
+  enabled = true
+  id = "geo.sudo"
+  description = "Help fund my toxic addiction to caffeine!"
+  message = ""  # Optional message
+  color = "#BD5FFF"  # Widget color
+  position = "Right"  # "Left" or "Right"
+  x_margin = "18"  # Horizontal margin in pixels
+  y_margin = "18"  # Vertical margin in pixels
 
 [module]
   [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [module.mounts] # Directing the static folder to assets.
-  	source = 'assets'
-  	target = 'static'
+    extended = true
+    min = "0.100.0"

@@ -1,0 +1,55 @@
+baseURL = 'https://blog.geosalib.com/'
+languageCode = 'en-us'
+title = 'Geo Salib | Me & My Thoughts!'
+theme = 'pehtheme-hugo'
+
+summaryLength = '20' # <- 20 words are approximately 160 characters
+googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+
+[pagination]
+  pagerSize = 6
+
+[params]
+	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
+	description = "This is a collection of my thoughts, projects, and anything else...It's Me!"
+	mainSections = 'posts'
+
+[author]
+	name = 'George Salib'
+	bio = 'A Human.'
+	avatar = '/images/favicon.png'
+	github = 'https://github.com/Geo-sudo'
+
+[menu] # Menu management
+	[[menu.main]]
+		name = 'Home'
+		pageRef = '/'
+		weight = 10
+	[[menu.main]]
+		name = 'Biblical Interpretation'
+		pageRef = '/tags/biblical-interpretation'
+		weight = 15
+	[[menu.main]]
+		name = 'Astrophysics'
+		pageRef = '/tags/astrophysics'
+		weight = 20
+	[[menu.main]]
+		name = 'Poetry'
+		pageRef = '/tags/poetry'
+		weight = 25
+	[[menu.main]]
+		name = 'About'
+		pageRef = '/about'
+		weight = 30
+	[[menu.main]]
+		name = 'Tags'
+		pageRef = '/tags'
+		weight = 35
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+  [module.mounts] # Directing the static folder to assets.
+  	source = 'assets'
+  	target = 'static'

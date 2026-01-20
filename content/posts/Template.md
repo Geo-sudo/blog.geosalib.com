@@ -8,13 +8,12 @@ caption: "Lorem Ipsum"
 categories:
   - astro
 tags:
-  - feature
 draft: true
 ---
 
 ## Lorem Ipsum
 
-{{< image-caption 
-   src="" 
-   alt="" 
+{{< image-caption
+   src=""
+   alt=""
    caption="" >}}
